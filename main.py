@@ -37,6 +37,13 @@ def print_one_line(f: Callable[..., int], arguments: tuple[int, ...]):
     print(f"{'|'.join(str(argument) for argument in arguments)}->{f(*arguments)}")
 
 def main() -> None:
+    # Nimmt als Input eine logische Aussage mit verschiedenen verwendetet Variablen, Parametern, wie
+    # ¬((¬(A∧A))∧(¬(B∧B)))
+    # in eine Wahrheitstabelle, wie
+    # 0|0->0
+    # 0|1->1
+    # 1|0->1
+    # 1|1->1
     inp: str = input("Logische Aussage >> ")
     f: Callable[..., int] = generate_function(inp)
     for arguments in generate_parameter_table(f):
