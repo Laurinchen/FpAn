@@ -1,6 +1,6 @@
 """
 Dieser Source Code ist unter der GNU GENERAL PUBLIC LICENSE V3.0 lizensiert
-This sourcecode is licensed under GNU GENERAL PUBLIC LICENSE V3.0
+This sourcecode is licensed under the GNU GENERAL PUBLIC LICENSE V3.0
 https://www.gnu.org/licenses/gpl-3.0.txt
 
 THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
